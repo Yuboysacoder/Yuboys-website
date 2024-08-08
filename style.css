@@ -1,0 +1,228 @@
+.pfp {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.title {
+  text-align: center;
+  color: rgb(21, 0, 255);
+  font-size: xx-large;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: blue;
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgb(8, 8, 193);
+}
+
+.navbar li {
+  float: left;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.about-divider, .games-divider {
+
+  border-style: groove;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(4, 0, 250);
+}
+
+.yuboyimg-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 15px;
+  border-style: groove;
+}
+
+.game-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.game-boxes div {
+  height: 370px;
+  width: 335px;
+  background: rgb(4, 0, 250);
+  margin: 30px;
+  border-radius: 10px;
+  border-style: groove;
+  color: white;
+  font-size: 20px;
+}
+
+.link-1 {
+  text-align: center;
+  color: white;
+}
+
+.chess-img, .marble-img, .slowroad-img{
+  border: 5px;
+  border-radius: 10px;
+  border-style: groove;
+  height: 160px;
+  width: 160px;
+}
+
+.games-divider-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.games-divider-2 div {
+  height: 370px;
+  width: 335px;
+  background: rgb(4, 0, 250);
+  margin: 30px;
+  border-radius: 10px;
+  border-style: groove;
+  color: white;
+  font-size: 20px;
+}
+
+.wrassling-img, .cookie-img, .slope-img{
+  border: 5px;
+  border-radius: 10px;
+  border-style: groove;
+  height: 160px;
+  width: 160px;
+}
+.yt-divider-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.thumbsup {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  position: relative; top: 14px; left: 10px;
+}
+
+.yt-divider-1 div {
+  height: 60px;
+  width: 350px;
+  background: blue;
+  margin: 60px;
+  border-radius: 10px;
+  border-style: groove;
+  color: black;
+  font-size: 20px;
+}
+
+.yt-pfps div {
+  height: 60px;
+  width: 360px;
+  margin: 60px;
+}
+
+.yt-pfps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Brawl-pfp, .Mrbeast-pfp {
+  width: 130px;
+  height: 130px;
+  border-radius: 70px;
+  margin: 50px;
+  outline: auto;
+}
+
+.yt-divider-exp {
+  background-color: rgb(4, 0, 250);
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  border: 2px;
+  border-style: groove;
+  padding-left: 10px;
+  padding-right: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.yt-pfps-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Mark-pfp, .Cory-pfp {
+  width: 130px;
+  height: 130px;
+  border-radius: 70px;
+  margin: 50px;
+  outline: auto;
+}
+
+.yt-pfps-2 div {
+  height: 60px;
+  width: 360px;
+  margin: 60px;
+}
+
+.yt-divider-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.yt-divider-2 div {
+  height: 60px;
+  width: 350px;
+  background: blue;
+  margin: 60px;
+  border-radius: 10px;
+  border-style: groove;
+  color: black;
+  font-size: 20px;
+}
+
+.Yuboy-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  width: 700px;
+  border: 5px;
+  border-radius: 30px;
+  border-style: groove;
+}
