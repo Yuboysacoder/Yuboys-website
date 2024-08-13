@@ -10,14 +10,6 @@
   font-size: xx-large;
 }
 
-.navbar ul {
-  list-style-type: none;
-  background-color: blue;
-  padding: 0px;
-  margin: 0px;
-  display: block;
-}
-
 .navbar a {
   color: white;
   text-decoration: none;
@@ -27,7 +19,9 @@
 }
 
 .navbar a:hover {
+  transition: 0.2s;
   background-color: rgb(8, 8, 193);
+  border-radius: 5px;
 }
 
 .navbar li {
