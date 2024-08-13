@@ -60,6 +60,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .game-boxes div {
@@ -91,6 +92,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .games-divider-2 div {
@@ -216,11 +218,16 @@ body {
   align-items: center;
   margin-left: 0px;
   margin-right: 0px;
-  height: 600px;
-  width: 700px;
+  width: 100%;
+  height: auto;
   border: 5px;
   border-radius: 30px;
   border-style: groove;
   border-color: white;
-
 }
+.credits-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
