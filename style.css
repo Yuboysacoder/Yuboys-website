@@ -10,7 +10,7 @@
   font-size: xx-large;
 }
 
-.navbar a {
+.navbar {
   color: white;
   text-decoration: none;
   padding: 15px;
@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.navbar a:hover {
+.navbar :hover {
   transition: 0.2s;
   background-color: rgb(8, 8, 193);
   border-radius: 5px;
