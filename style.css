@@ -225,6 +225,11 @@ body {
   border-style: groove;
   border-color: white;
 }
+
+.Yuboy-3:hover {
+  transform: scale(1.2);
+}
+
 .credits-img {
   display: flex;
   justify-content: center;
