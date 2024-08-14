@@ -150,8 +150,8 @@ body {
 
 
 .Brawl-pfp {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 40px; /* Space between the circle and the box */
@@ -164,7 +164,7 @@ body {
 }
 
 .brawl-box {
-  width: 200px;
+  width: 250px;
   padding: 0px;
   background-color: blue;
   color: white;
@@ -186,8 +186,8 @@ body {
 }
 
 .Beast-pfp {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 40px; /* Space between the circle and the box */
@@ -203,7 +203,7 @@ body {
 }
 
 .beast-box {
-  width: 200px;
+  width: 250px;
   padding: 0px;
   background-color: blue;
   color: white;
@@ -233,8 +233,8 @@ body {
 
 
 .mark-pfp {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 40px; /* Space between the circle and the box */
@@ -247,7 +247,7 @@ body {
 }
 
 .mark-box {
-  width: 200px;
+  width: 250px;
   padding: 0px;
   background-color: blue;
   color: white;
@@ -267,8 +267,8 @@ body {
 }
 
 .cory-pfp {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 40px; /* Space between the circle and the box */
@@ -284,7 +284,7 @@ body {
 }
 
 .cory-box {
-  width: 200px;
+  width: 250px;
   padding: 0px;
   background-color: blue;
   color: white;
@@ -294,7 +294,6 @@ body {
   border-style: solid;
   border-color: white;
 }
-
 .Yuboy-3 {
   display: flex;
   justify-content: center;
