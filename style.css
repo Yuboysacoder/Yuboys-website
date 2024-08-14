@@ -224,6 +224,7 @@ body {
   border-radius: 30px;
   border-style: groove;
   border-color: white;
+  transition: .3s;
 }
 
 .Yuboy-3:hover {
