@@ -16,12 +16,15 @@
   padding: 15px;
   display: block;
   text-align: center;
+  border-radius: 5px;
 }
 
 .navbar a:hover {
   transition: 0.2s;
   background-color: rgb(8, 8, 193);
   border-radius: 5px;
+  border-style: solid;
+  border-color: white;
 }
 
 .navbar li {
@@ -54,6 +57,8 @@ body {
   border-radius: 15px;
   border-style: groove;
 }
+
+
 
 .game-boxes {
   display: flex;
@@ -127,89 +132,167 @@ body {
   position: relative; top: 14px; left: 10px;
 }
 
-.yt-divider-1 div {
-  height: 60px;
-  width: 350px;
-  background: blue;
-  margin: 60px;
-  border-radius: 10px;
-  border-style: groove;
-  color: black;
-  font-size: 20px;
-}
-
-.yt-pfps div {
-  height: 60px;
-  width: 360px;
-  margin: 60px;
-}
-
-.yt-pfps {
+.yt-row1 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
-.Brawl-pfp, .Mrbeast-pfp {
-  width: 130px;
-  height: 130px;
-  border-radius: 70px;
-  margin: 50px;
-  outline: auto;
+
+.yt-brawl {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers both the circle and the box horizontally */
+  flex-wrap: wrap;
 }
 
-.yt-divider-exp {
-  background-color: rgb(4, 0, 250);
-  border-radius: 15px;
+
+.Brawl-pfp {
   width: 100px;
   height: 100px;
-  border: 2px;
-  border-style: groove;
-  padding-left: 10px;
-  padding-right: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 40px; /* Space between the circle and the box */
+}
+
+.Brawl-pfp img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire circle */
+}
+
+.brawl-box {
+  width: 200px;
+  padding: 0px;
+  background-color: blue;
   color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.yt-pfps-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-}
-
-.Mark-pfp, .Cory-pfp {
-  width: 130px;
-  height: 130px;
-  border-radius: 70px;
-  margin: 50px;
-  outline: auto;
-}
-
-.yt-pfps-2 div {
-  height: 60px;
-  width: 360px;
-  margin: 60px;
-}
-
-.yt-divider-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.yt-divider-2 div {
-  height: 60px;
-  width: 350px;
-  background: blue;
-  margin: 60px;
   border-radius: 10px;
-  border-style: groove;
-  color: black;
-  font-size: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+
+
+.yt-beast {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers both the circle and the box horizontally */
+  flex-wrap: wrap;
+}
+
+.Beast-pfp {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 40px; /* Space between the circle and the box */
+}
+
+.Beast-pfp img {
+  width: 100%;
+  height: 100%;
+  border: white;
+  border-width: 2px;
+  border-style: solid;
+  object-fit: cover; /* Ensures the image covers the entire circle */
+}
+
+.beast-box {
+  width: 200px;
+  padding: 0px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+.yt-row2 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+
+.yt-mark {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers both the circle and the box horizontally */
+  flex-wrap: wrap;
+}
+
+
+.mark-pfp {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 40px; /* Space between the circle and the box */
+}
+
+.mark-pfp img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire circle */
+}
+
+.mark-box {
+  width: 200px;
+  padding: 0px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+.yt-cory {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers both the circle and the box horizontally */
+  flex-wrap: wrap;
+}
+
+.cory-pfp {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 40px; /* Space between the circle and the box */
+}
+
+.cory-pfp img {
+  width: 100%;
+  height: 100%;
+  border: white;
+  border-width: 2px;
+  border-style: solid;
+  object-fit: cover; /* Ensures the image covers the entire circle */
+}
+
+.cory-box {
+  width: 200px;
+  padding: 0px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
 }
 
 .Yuboy-3 {
@@ -236,6 +319,3 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-
-
